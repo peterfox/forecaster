@@ -12,7 +12,7 @@ use YlsIdeas\Forecaster\Forecaster;
 
 class CollectionMacroTest extends TestCase
 {
-    public function test_it_allows_for_the_use_of_Forecaster_with_collections()
+    public function test_it_allows_for_the_use_of_forecaster_with_collections()
     {
         /** @var Collection $collection */
         $collection = collect([
