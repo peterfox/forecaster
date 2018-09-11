@@ -166,8 +166,8 @@ class Forecaster
     }
 
     /**
-     * @param $type
-     * @param $value
+     * @param string $type
+     * @param mixed $value
      * @return bool|float|int|string
      */
     protected function castPrimitives($type, $value)
